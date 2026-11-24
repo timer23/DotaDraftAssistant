@@ -12,7 +12,7 @@
 Помощник для стадии выбора героев в Dota 2. Программа сама видит, кого взяли союзники и противники, и подсказывает, кого пикнуть вам: с учётом контрпиков, синергии, вашей позиции и вашего пула героев. Подсказки показываются прямо поверх игры.
 
 <p align="center">
-  <a href="https://github.com/timer23/DotaDraftAssistant/releases/latest"><img src="https://img.shields.io/badge/%E2%AC%87%20%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D1%8E%D1%8E%20%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8E-f2b84b?style=for-the-badge&labelColor=1d1410" alt="Скачать последнюю версию" height="42"></a>
+  <a href="https://github.com/timer23/DotaDraftAssistant/releases/latest"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D1%8E%D1%8E%20%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8E-f2b84b?style=for-the-badge&logo=github&logoColor=white&labelColor=1d1410" alt="Скачать последнюю версию" height="42"></a>
 </p>
 
 <p align="center">Файл <code>DotaDraftAssistant-&lt;версия&gt;.zip</code> · Windows 10/11, 64 бит · дальше программа обновляется сама</p>
