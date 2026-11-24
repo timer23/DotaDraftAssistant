@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0f17"/>
+      <stop offset="0.55" stop-color="#121826"/>
+      <stop offset="1" stop-color="#1d1410"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.3" r="0.6">
+      <stop offset="0" stop-color="#f2b84b" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#f2b84b" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0.08" cy="0.9" r="0.5">
+      <stop offset="0" stop-color="#3fd09a" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#3fd09a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="18" fill="url(#glow)"/>
+  <rect width="1200" height="300" rx="18" fill="url(#glow2)"/>
+
+  <!-- Схема драфта: союзники, противники и подсвеченный пик -->
+  <g transform="translate(760 70)">
+    <g fill="none" stroke-width="3">
+      <rect x="0" y="0" width="64" height="40" rx="6" stroke="#3fd09a"/>
+      <rect x="74" y="0" width="64" height="40" rx="6" stroke="#3fd09a"/>
+      <rect x="148" y="0" width="64" height="40" rx="6" stroke="#f2b84b"/>
+      <rect x="222" y="0" width="64" height="40" rx="6" stroke="#3fd09a" stroke-dasharray="6 5" opacity="0.6"/>
+      <rect x="296" y="0" width="64" height="40" rx="6" stroke="#3fd09a" stroke-dasharray="6 5" opacity="0.6"/>
+      <rect x="0" y="120" width="64" height="40" rx="6" stroke="#e0566b"/>
+      <rect x="74" y="120" width="64" height="40" rx="6" stroke="#e0566b"/>
+      <rect x="148" y="120" width="64" height="40" rx="6" stroke="#e0566b"/>
+      <rect x="222" y="120" width="64" height="40" rx="6" stroke="#e0566b"/>
+      <rect x="296" y="120" width="64" height="40" rx="6" stroke="#e0566b" stroke-dasharray="6 5" opacity="0.6"/>
+    </g>
+    <rect x="152" y="4" width="56" height="32" rx="4" fill="#f2b84b" opacity="0.18"/>
+    <text x="180" y="27" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#f2b84b">ВЫ</text>
+    <text x="0" y="74" font-family="Segoe UI, Arial, sans-serif" font-size="14" letter-spacing="2" fill="#3fd09a">СОЮЗНИКИ</text>
+    <text x="0" y="104" font-family="Segoe UI, Arial, sans-serif" font-size="14" letter-spacing="2" fill="#e0566b">ПРОТИВНИКИ</text>
+    <g font-family="Segoe UI, Arial, sans-serif" font-size="15">
+      <rect x="210" y="62" width="150" height="46" rx="10" fill="#f2b84b" opacity="0.14" stroke="#f2b84b" stroke-opacity="0.6"/>
+      <text x="224" y="82" fill="#f2b84b" font-weight="700">#1 ЛУЧШИЙ</text>
+      <text x="224" y="100" fill="#c9d1e0">винрейт 52.5%</text>
+    </g>
+  </g>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="64" y="128" font-size="64" font-weight="300" fill="#eef2f8" letter-spacing="1">DOTA <tspan fill="#f2b84b" font-weight="600">DRAFT</tspan></text>
+    <text x="66" y="172" font-size="26" fill="#c9d1e0">Помощник драфта для Dota 2</text>
+    <text x="66" y="222" font-size="18" fill="#8b95a8">Видит пики с экрана · советует героя · подсказывает прямо в игре</text>
+  </g>
+</svg>
