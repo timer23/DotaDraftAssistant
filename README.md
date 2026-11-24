@@ -1,10 +1,25 @@
-# Dota 2 Draft Assistant
+<p align="center">
+  <img src="images/banner.svg" alt="Dota Draft — помощник драфта для Dota 2" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://github.com/timer23/DotaDraftAssistant/releases/latest"><img src="https://img.shields.io/github/v/release/timer23/DotaDraftAssistant?style=for-the-badge&label=%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F&color=f2b84b&labelColor=121826" alt="Версия"></a>
+  <a href="https://github.com/timer23/DotaDraftAssistant/releases"><img src="https://img.shields.io/github/downloads/timer23/DotaDraftAssistant/total?style=for-the-badge&label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=3fd09a&labelColor=121826" alt="Скачивания"></a>
+  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-4f8cff?style=for-the-badge&logo=windows&labelColor=121826" alt="Windows 10 | 11">
+  <img src="https://img.shields.io/badge/%D0%B0%D0%B2%D1%82%D0%BE%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B5%D1%81%D1%82%D1%8C-8b5cf6?style=for-the-badge&labelColor=121826" alt="Автообновление">
+</p>
 
 Помощник для стадии выбора героев в Dota 2. Программа сама видит, кого взяли союзники и противники, и подсказывает, кого пикнуть вам: с учётом контрпиков, синергии, вашей позиции и вашего пула героев. Подсказки показываются прямо поверх игры.
 
-**[⬇ Скачать последнюю версию](https://github.com/timer23/DotaDraftAssistant/releases/latest)** — файл `DotaDraftAssistant-<версия>.zip`.
+<p align="center">
+  <a href="https://github.com/timer23/DotaDraftAssistant/releases/latest"><img src="https://img.shields.io/badge/%E2%AC%87%20%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D1%8E%D1%8E%20%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8E-f2b84b?style=for-the-badge&labelColor=1d1410" alt="Скачать последнюю версию" height="42"></a>
+</p>
 
-Windows 10/11, 64 бит. Дальше программа обновляется сама.
+<p align="center">Файл <code>DotaDraftAssistant-&lt;версия&gt;.zip</code> · Windows 10/11, 64 бит · дальше программа обновляется сама</p>
+
+<p align="center">
+  <img src="images/draft.png" alt="Окно драфта: союзники, противники и лучшие герои из вашего пула" width="100%">
+</p>
 
 ---
 
@@ -21,6 +36,12 @@ Windows 10/11, 64 бит. Дальше программа обновляется
 - **Включается сама.** Через официальную связь с Dota (Game State Integration) распознавание запускается с началом выбора героев и выключается после него.
 - **Учится на ошибках.** Если герой распознан неверно, его можно поправить прямо на портрете. Программа запомнит, как он выглядит в игре.
 - **Советы ИИ (по желанию).** Объяснение пика и сборка предметов от Groq или OpenRouter. Для этого нужен ваш собственный ключ API. ИИ получает только текстовый список героев, а не скриншоты.
+
+<details>
+<summary><b>🖼 Ваш пул героев</b> — рекомендации можно ограничить героями, на которых вы играете</summary>
+<br>
+<img src="images/pool.png" alt="Страница «Мой пул героев»" width="100%">
+</details>
 
 ## Установка
 
